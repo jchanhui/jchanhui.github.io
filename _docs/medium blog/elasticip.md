@@ -1,5 +1,5 @@
 ---
-title: Elastic Ip 복구하기
+title: Elastic IP 복구하기
 category: medium blog
 order: 1
 ---
