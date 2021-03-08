@@ -3,13 +3,13 @@ title: elastic ip 복구하기
 category: medium blog
 order: 1
 ---
- 
+
 
 만약 실수로 또는 더이상 필요하지 않아서 Elastic IP를 해제 (Release) 했을때
 아래와 같은 조건을 충족한다면 해제한 Elastic IP를 복구 할수 있습니다.
 
-1. 당 Elastic IP가 다른 계정에 할당되지 않았을 경우
-2. Elastic IP 할당 한도가 초과되지 않았을 경우
+ 1. 해당 Elastic IP가 다른 계정에 할당되지 않았을 경우
+ 2. Elastic IP 할당 한도가 초과되지 않았을 경우
 
 우선 Elastic IP를 생성해보도록 하겠습니다.
 AWS Management Console 에서 좌측 상단에 있는 [Services] 를 선택하고
