@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: FitCloud - Tech blog
+title: FitCloud 기술 블로그
 url: "https://fitcloud.co.kr"
 baseurl:
 google_analytics_key:
@@ -15,7 +15,7 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Saltware FitCloud - Tech blog
+  name: Saltware FitCloud 기술 블로그
   links:
     - https://github.com/fitcloud
 
