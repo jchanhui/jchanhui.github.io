@@ -21,15 +21,15 @@ AWS Management Console 에서 좌측 상단에 있는 [Services] 를 선택하�
 
 이제 AWS CLI를 사용해서 방금 해제한 Elastic IP를 복구해보겠습니다.
 
-'''
-$ aws ec2 allocate-address --domain vpc --address 15.165.171.152
+
+    <blockquote> \ $ aws ec2 allocate-address --domain vpc --address 15.165.171.152
 {
     "PublicIp": "15.165.171.152",
     "Domain": "vpc",
     "AllocationId": "eipalloc-0607f43dcb7fe1b44",
     "PublicIpv4Pool": "amazon"
-}
-'''
+} \ <\/blockquote\>
+
 
 방금 해제한 Elastic IP를 성공적으로 복구했습니다.
 하지만 위에서 언급했듯이 해제한 Elastic IP가 다른 AWS 계정에 할당되지 않을때 경우에만 복구가 가능하구요.
